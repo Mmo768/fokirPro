@@ -17,7 +17,7 @@ scrollnav();
 
 
 $(document).scroll(function(){
-    if($(document).scrollTop() > $(".count").offset().top){
+    if($(document).scrollTop() > $(".count").offset().top-250){
         count1.start();
         count2.start();
         count3.start();
