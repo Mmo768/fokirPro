@@ -10,6 +10,19 @@ const count4 = new CountUp('count4', 0, 1200);
 
 
 // ========== start ==========
+var typed = new Typed('#type', {
+    strings: [" Designer", " Developer"],
+    smartBackspace: true,
+    typeSpeed: 100,
+    backDelay:10,
+    backSpeed:50,
+    loop:true,
+    showCursor: true,
+    cursorChar: '  |',
+    autoInsertCss: true,
+  });
+
+  
 
 navbar();
 images();
