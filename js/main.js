@@ -30,7 +30,7 @@ scrollnav();
 
 
 $(document).scroll(function(){
-    if($(document).scrollTop() > $(".count").offset().top-250){
+    if($(document).scrollTop()+window.innerHeight*.7 > $(".count").offset().top){
         count1.start();
         count2.start();
         count3.start();
